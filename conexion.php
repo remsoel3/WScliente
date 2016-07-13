@@ -3,7 +3,7 @@
 	$username = 'remsoel3';
 	$password = 'DarLord333unt';
 	$server = 'clienteservidor.database.windows.net'; 
-	$database = 'BancoX';
+	$database = 'ARDUINO';
 
 	$info = [ 'Database'=>$database, 'UID'=>$username, 'PWD'=>$password, 'CharacterSet' => 'UTF-8' ]; 
 	$conexion = sqlsrv_connect($server, $info);  
