@@ -1,11 +1,11 @@
 <?php
 /*
-	Este WS nos permite encender el sensor usando SP_ActualizarN.
+	Este WS nos permite encender el sensor usando SP_ActualizarI.
 */
 	require 'conexion.php';
 	//header('Content-Type: application/json');
 
-	$sql_SP = "{ CALL SP_ActualizarN() }";
+	$sql_SP = "{ CALL SP_ActualizarI() }";
 
 	$params = [
 	];

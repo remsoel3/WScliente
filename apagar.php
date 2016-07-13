@@ -1,11 +1,11 @@
 <?php
 /*
-	Este WS nos permite apagar el sensor usando SP_ActualizarI.
+	Este WS nos permite apagar el sensor usando SP_ActualizarN.
 */
 	require 'conexion.php';
 	//header('Content-Type: application/json');
 
-	$sql_SP = "{ CALL SP_ActualizarI() }";
+	$sql_SP = "{ CALL SP_ActualizarN() }";
 
 	$params = [
 	];
