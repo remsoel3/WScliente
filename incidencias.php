@@ -5,7 +5,7 @@
 	require 'conexion.php';
 	header('Content-Type: application/json');
 
-	$sql_SP = "{ CALL select_incidencias() }";
+	$sql_SP = "{ CALL select_incidencia() }";
 
 	$params = [
 	];
