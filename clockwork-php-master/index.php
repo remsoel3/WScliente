@@ -1,9 +1,9 @@
 <?php
 
-// require("class-Clockwork.php");
+require("class-Clockwork.php");
 require("conexion.php");
 $apikey = "81527975d971c80cacc9e5970249e7c17d4c0804";
-// $clockwork = new Clockwork($apikey);
+$clockwork = new Clockwork($apikey);
 
 $query = 'select * from USUARIO where IDUsuario=1';
 $registros = sqlsrv_query($conexion, $query);/*
